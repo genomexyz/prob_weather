@@ -24,21 +24,21 @@ min_data = 4
 
 def definearahangin(arah):
 	if arah < 45:
-		arahangin = 'Timur Laut'
+		arahangin = 'Northeast'
 	elif arah < 90:
-		arahangin = 'Timur'
+		arahangin = 'East'
 	elif arah < 135:
-		arahangin = 'Tenggara'
+		arahangin = 'Southeast'
 	elif arah < 180:
-		arahangin = 'Selatan'
+		arahangin = 'South'
 	elif arah < 225:
-		arahangin = 'Barat Daya'
+		arahangin = 'Southwest'
 	elif arah < 270:
-		arahangin = 'Barat'
+		arahangin = 'East'
 	elif arah < 315:
-		arahangin = 'Barat Laut'
+		arahangin = 'Northwest'
 	else:
-		arahangin = 'Utara'
+		arahangin = 'North'
 	return arahangin
 
 def most_frequent(List): 
